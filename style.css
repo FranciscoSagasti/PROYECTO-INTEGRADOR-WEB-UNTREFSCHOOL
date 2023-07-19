@@ -4,9 +4,14 @@
     color: #181823;
 }
 
+body{
+    font-size: 16px;
+    line-height: 1.5;
+}
+
 header{
     border: 1px solid black;
-    height: 50px;
+    height: 3.125rem;
     width: 100%;
     background-color: #eff5f5;
     position: fixed;
@@ -14,7 +19,7 @@ header{
 }
 
 .nav-bar{
-    margin: 15px;
+    margin: 0.9rem;
     text-align: center;
     display: flex;
     justify-content: space-around;
@@ -22,21 +27,21 @@ header{
 }
 
 .seccion-titulo{
-    height: 500px;
+    height: 31.25rem;
     width: 100%;
 }
 
 #foto-titulo{
     width: 100%;
-    height: 500px;
+    height: 31.25rem;
 }
 
 h1{
     position: absolute;
     z-index: 10;
-    left: 540px;
-    top: 225px;
-    font-size: 75px;
+    left: 35%;
+    top: 14rem;
+    font-size: 4.7rem;
     color: #fc7300;
     background-color: #00425a;   
 }
@@ -44,125 +49,119 @@ h1{
 
 
 .seccion-quienes-somos{
-    height: 500px;
+    height: 31.25rem;
     width: 100%;
     text-align: center;
     position: relative;
     background-color: #00425a;
-    outline: 5px solid #181823;
+    outline: 0.3rem solid #181823;
 }
 
 #quienes-somos{
-    font-size: 50px;
-    padding: 5px;
+    font-size: 3.125rem;
+    padding: 0,6rem;
     color: #fc7300;
 }
 
-.seccion-quienes-somos p{
-    position: absolute;
-    height: 50px;
-    width: 200px;
-    position: absolute;
-    left: 500px;
-    bottom: 350px;
-    z-index: 10;
+.seccion-quienes-somos div{
+    display: flex;
+    justify-content: center;
 }
 
-.seccion-quienes-somos img{
+.seccion-quienes-somos p{
+    font-size: large;
+    padding: 1.25rem;
+    color: #eff5f5;
     position: absolute;
-    height: 425px;
-    width: 650px;
-    top: 75px;
-    right: 450px;
-
+    top: 9.4rem;
 }
 
 .seccion-porque-elegirnos{
-    height: 500px;
+    height: 31.25rem;
     width: 100%;
     text-align: center;
     position: relative;
     background-color: #00425a;
-    outline: 5px solid #181823;
+    outline: 0.3rem solid #181823;
 }
 
 #porque-elegirnos{
-    font-size: 50px;
-    padding: 10px;
+    font-size: 3.125rem;
+    padding: 0.6rem;
     color: #fc7300;
 }
 
 .seccion-porque-elegirnos p{
     font-size: large;
-    padding: 20px;
+    padding: 1.25rem;
     color: #eff5f5;
     position: absolute;
-    top: 150px;
+    top: 9.4rem;
 }
 
 .seccion-propuesta-educativa{
-    height: 500px;
+    height: 31.25rem;
     width: 100%;
     text-align: center;
     position: relative;
     background-color: #00425a;
-    outline: 5px solid #181823;
+    outline: 0.3rem solid #181823;
 }
 
 #propuesta-educativa{
-    font-size: 50px;
-    padding: 10px;
+    font-size: 3.125rem;
+    padding: 0.6;
     color: #fc7300;
 }
 
 .propuestas{
     display: flex;
     justify-content: space-around;
-    padding: 10px;
+    padding: 0.6rem;
 }
 
 .seccion-propuesta-educativa img{
-    height: 300px;
-    width: 400px;
+    height: 18.75rem;
+    width: 25rem;
 }
 
 .seccion-propuesta-educativa p{
-    font-size: 25px;
-    padding: 10px;
+    font-size: 1.56rem;
+    padding: 0.6rem;
     color: #eff5f5;
 }
 
 
 .seccion-ultimas-noticias{
-    height: 500px;
+    height: 35rem;
     width: 100%;
     text-align: center;
     position: relative;
     background-color: #00425a;
-    outline: 5px solid #181823;
+    outline: 0.3rem solid #181823;
 }
 
 #ultimas-noticias{
-    font-size: 50px;
-    padding: 10px;
+    font-size: 3.125rem;
+    padding: 0.6rem;
     color: #fc7300;   
 }
 
 .seccion-ultimas-noticias p{
-    font-size: 25px;
-    padding: 10px;
+    font-size: 1.56rem;
+    padding: 0.6rem;
     color: #eff5f5;   
 }
 
 .seccion-ultimas-noticias img{
-    height: 225px;
-    width: 400px;
+    height: 14rem;
+    width: 25rem;
 }
 
 .noticias{
     display: flex;
     justify-content: space-around;
-    padding: 10px;
+    padding: 0.6rem;
 }
 
 
@@ -173,22 +172,22 @@ footer{
 footer nav{
     display: flex;
     justify-content: space-around;
-    padding: 20px;
+    padding: 1.25rem;
 }
 
 footer nav h3{
-    font-size: 25px;
-    padding: 20px;
+    font-size: 1.56rem;
+    padding: 1.25rem;
 }
 
 footer iframe{
-    height: 150px;
-    width: 250px;
+    height: 9.4rem;
+    width: 15.6rem;
 }
 
 footer nav img{
-    height: 50px;
-    width: 50px;
+    height: 3.125rem;
+    width: 3.125rem;
 }
 
 footer nav ul{
