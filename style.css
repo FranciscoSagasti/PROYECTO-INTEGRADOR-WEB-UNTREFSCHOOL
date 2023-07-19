@@ -7,15 +7,14 @@
 body{
     font-size: 14px;
     line-height: 1.5;
+    margin: 0;
+    padding: 0;
 }
 
-/* Estilos para dispositivos con ancho de pantalla de 320px o menos */
 @media (max-width: 320px) {
-    /* Aplica aquí los estilos específicos para dispositivos móviles */
-}
-
-body {
+    body {
     font-size: 12px;
+    }
 }
 
 header{
@@ -36,23 +35,35 @@ header{
 }
 
 .seccion-titulo{
+    position: relative;
+    text-align: center;
     height: auto;
+    min-height: 50vh;
     width: 100%;
+    background-color: #00425a;
+    outline: 0.3rem solid #181823;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #foto-titulo{
     width: 100%;
     height: auto;
+    max-height: 100%;
+    object-fit: cover;
 }
 
 h1{
     position: absolute;
     z-index: 10;
-    left: 35%;
-    top: 8rem;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
     font-size: 2rem;
     color: #fc7300;
-    background-color: #00425a;   
+    background-color: #00425a;
+    padding: 0.6rem;   
 }
 
 
@@ -68,7 +79,7 @@ h1{
 
 #quienes-somos{
     font-size: 2rem;
-    padding: 0,6rem;
+    padding: 0.6rem;
     color: #fc7300;
 }
 
@@ -81,8 +92,6 @@ h1{
     font-size: 1rem;
     padding: 0.3rem;
     color: #eff5f5;
-    position: absolute;
-    top: 9.4rem;
 }
 
 .seccion-porque-elegirnos{
@@ -104,8 +113,6 @@ h1{
     font-size: 1rem;
     padding: 0.3rem;
     color: #eff5f5;
-    position: absolute;
-    top: 9.4rem;
 }
 
 .seccion-propuesta-educativa{
@@ -132,6 +139,8 @@ h1{
 .seccion-propuesta-educativa img{
     height: auto;
     width: 100%;
+    max-width: 400px;
+    max-height: 300px;
 }
 
 .seccion-propuesta-educativa p{
@@ -165,6 +174,7 @@ h1{
 .seccion-ultimas-noticias img{
     height: auto;
     width: 100%;
+    max-width: 400px;
 }
 
 .noticias{
@@ -202,3 +212,42 @@ footer nav img{
 footer nav ul{
     list-style-type: none;
 }  
+
+
+@media (max-width: 768px) {
+    body {
+        font-size: 13px;
+    }
+
+    .seccion-titulo{
+        min-height: 40vh;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+        top: 50%;
+    }
+
+    .seccion-quienes-somos p,
+    .seccion-porque-elegirnos p,
+    .seccion-propuesta-educativa p,
+    .seccion-ultimas-noticias p {
+        font-size: 1.1rem;
+    }
+
+    .propuestas {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .seccion-propuesta-educativa img,
+    .seccion-ultimas-noticias img {
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 1rem;
+    }
+
+    footer nav img {
+        width: 1.2rem;
+    }
+}
